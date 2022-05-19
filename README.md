@@ -12,5 +12,7 @@ sudo ./yetki
 There is also a way to make it run without typing sudo every time: set the suid bit on the executable and change its owner to root:
 
 sudo chmod +s ./yetki
+
 sudo chown root ./yetki
+
 After starting yetki, it will run root 
